@@ -184,6 +184,7 @@ span.date {
 #flex-cards {
     display: flex;
     width: 660px;
+    margin-bottom: 40px;
 }
 
 div.video-card {
@@ -191,6 +192,7 @@ div.video-card {
     border-radius: 10px;
     margin-right: 7px;
     border: 1px solid lightgray;
+    position: relative;
 }
 
 video {
@@ -199,14 +201,14 @@ video {
 }
 
 div.container {
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
 }
 
 .video-title {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .channel-title {
@@ -217,4 +219,94 @@ div.container {
 
 span {
     font-size: 14px;
+}
+
+#videos-caption {
+    color: #222222;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+span.duration {
+    position: absolute;
+    top: 93px;
+    left: 9px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 5px 5px;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+ul.tags {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+ul.tags li {
+    display: inline;
+    font-size: 14px;
+}
+
+ul.tags li::before {
+    content: " · "
+}
+
+ul.tags li.first::before {
+    content: ""
+}
+
+#related-searches {
+    display: flex;
+    font-size: 14px;
+    line-height: 25px;
+    width: 625px;
+}
+
+#related-searches ul {
+    width: 300px;
+} 
+
+#related-caption {
+    color: #222222;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.ad {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ad::after {
+    content: " · "
+}
+
+#search-pages {
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+#search-pages li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+#search-pages img {
+    display: block;
+}
+
+#search-pages ul {
+    margin-left: 37px;
+    display: inline;
+}
+
+#search-pages span {
+    margin-left: 45px;
+}
+
+:link {
+    color:#4285f4;
 }
