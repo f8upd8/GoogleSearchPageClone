@@ -139,8 +139,12 @@ li.rest-of-path {
     font-size: 14px;
 }
 
-.page-title {
+a {
     text-decoration: none;
+    color: #1a0dab;
+}
+
+.page-title {
     font-size: 20px;
     color: #1a0dab;
 }
@@ -175,4 +179,42 @@ strong {
 
 span.date {
     color: #70757a;
+}
+
+#flex-cards {
+    display: flex;
+    width: 660px;
+}
+
+div.video-card {
+    width: 212px;
+    border-radius: 10px;
+    margin-right: 7px;
+    border: 1px solid lightgray;
+}
+
+video {
+    width: 212px;
+    border-radius: 10px 10px 0 0;
+}
+
+div.container {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.video-title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.channel-title {
+    display: block;
+    color: #808080;
+    margin-bottom: 7px;
+}
+
+span {
+    font-size: 14px;
 }
