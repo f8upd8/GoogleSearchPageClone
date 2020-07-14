@@ -19,7 +19,7 @@ img#google-logo {
 }
 
 #gapps-button-svg {
-    width: 30px;
+    width: 25px;
     border-radius: 50%;
 }
 
@@ -33,7 +33,7 @@ div#right {
 }
 
 div#right div {
-    width: 60px;
+    width: 40px;
 }
 
 #searchbar form input {
@@ -42,10 +42,6 @@ div#right div {
     border: 1px solid lightgrey;
     padding: 7px;
     width: 680px;
-}
-
-#searchbar {
-    margin-left: 50px;
 }
 
 #controls {
@@ -188,7 +184,7 @@ span.date {
 }
 
 div.video-card {
-    width: 212px;
+    width: 215px;
     border-radius: 10px;
     margin-right: 7px;
     border: 1px solid lightgray;
@@ -196,7 +192,7 @@ div.video-card {
 }
 
 video {
-    width: 212px;
+    width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
@@ -216,6 +212,7 @@ div.container {
     color: #808080;
     margin-bottom: 7px;
 }
+
 
 span {
     font-size: 14px;
@@ -308,5 +305,111 @@ ul.tags li.first::before {
 }
 
 :link {
-    color:#4285f4;
+    color:#1a0dab;
+}
+
+ul#location-nav li::before {
+    content: " - "
+}
+
+ul#location-nav li {
+    display: inline;
+    color: #5f6368;
+}
+
+ul#location-nav {
+    display: inline;
+}
+
+ul#footer-nav li {
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
+div#location {
+    border-bottom: #e4e4e4 solid 0.5px;
+    border-top: #e4e4e4 solid 0.5px;
+}
+
+footer div {
+    padding: 15px;
+}
+
+ul#footer-nav li {
+    display: inline;
+    color: #5f6368;
+}
+
+span#location-country, ul#footer-nav {
+    margin-left: 175px;
+    color:rgba(0, 0, 0, 0.54);
+}
+
+span.grey-circle {
+    border-radius: 50%;
+    background-color: #a3a3a3;
+    display: inline-block;
+    width: 10px;
+    height: 0.1px;
+    position: relative;
+    top: 0px;
+}
+
+span#location-country { 
+    margin-right: 10px;
+    border-right: #cfcfcf solid 0.5px;
+    padding-right: 8px;
+}
+
+span#location-city {
+    color:rgba(8, 8, 8, 0.795);
+    font-weight: bold;
+}
+
+footer span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search-icons {
+    width: 24px;
+    display: inline-block;
+    fill: currentColor;
+}
+
+#search-icon-1 {
+    border-right: #bebebe solid 0.5px;
+    padding-right: 10px;
+    color: #575757;
+}
+
+#search-icon-2 {
+    padding-left: 6px;
+}
+
+#search-icon-3 {
+    padding-left: 17px;
+    color: #4285f4;
+}
+
+#additional-buttons {
+    display: inline;
+    position: absolute;
+    top: 28px;
+    left: 720px;
+}
+
+div#searchbar {
+    margin-left: 50px;
+    width: 680px;
+    display: flex;
+}
+
+#gapps-button {
+    fill: grey;
 }
